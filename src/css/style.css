@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+@font-face {
+    font-family: 'Canon-logo';
+    font-weight: 600;
+    src: url(../fonts/CANON.ttf);
+}
+:root{
+
+    --font-default: 'Roboto', sans-serif;
+    --font-logo: 'Canon-logo', serif;
+}
+body{
+    height: 200vh;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+/* Navbar ------------------------- */
+
+.nav-bg{
+    background: linear-gradient(to bottom, #000000cc, #00000000);
+}
+.navbar-brand{
+    font-family: var(--font-logo);
+}
+.nav-link{
+    font-family: var(--font-default);
+}
+
+/* Header ------------------------- */
+.header-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(#0000002c, black), url(../../media/camera-lens3.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+.header-textcarousel-container{
+    height: 4rem;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+#header button{
+    margin-top: calc(2 * 2vh);
+    z-index: 1;
+}
+.header-clip{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    position: absolute;
+    mix-blend-mode: multiply;
+    z-index: 1;
+    pointer-events: none;
+}
+.header-textcarousel-text{
+    font-family: var(--font-default);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.header-textcarousel-inner{
+    transition: transform ease-in-out 0.5s ;
+    text-align: center;
+    transform: translateY(0px);
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canon - Fotografia</title>
+   
+    <link rel="stylesheet" href="src/css/custom-bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <script src="src/js/index.js" defer></script>
+</head>
+<body>
+    <header class="w-100">
+
+        <!-- NavBar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-bg">
+            <div class="container">
+                <h1 class="navbar-brand text-primary"><span class="h4">Canon</span></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active" aria-current="page">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#products" class="nav-link">PRODUTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#support" class="nav-link">SUPORTE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#inspiration" class="nav-link">INSPIRAÇÃO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <video class="header-clip" autoplay loop muted disablePictureInPicture>
+            <source src="media/background-video1.mp4" playbackRate=2 type="video/mp4">
+        </video>
+        <div class="container vh-100 d-flex flex-column justify-content-center align-items-center text-light" id="header">
+            <!-- text carousel -->
+            <div class="header-textcarousel-container">
+                <div class="header-textcarousel-inner" id="header-textcarousel-slides">
+                    <p class="display-1 header-textcarousel-text">Explore</p>
+                    <p class="display-1 header-textcarousel-text">Crie</p>
+                    <p class="display-1 header-textcarousel-text">Recorde</p>
+                    <p class="display-1 header-textcarousel-text">Capture</p>
+                </div>
+            </div>
+
+            <button class="btn btn-light">PRODUTOS</button>
+
+        </div>
+        <!-- background image -->
+        <div class="container-fluid vh-100 header-bg"></div>
+    </header>
+
+
+    
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="src/bootstrap-js/bootstrap.js"></script>
+</body>
+</html>
