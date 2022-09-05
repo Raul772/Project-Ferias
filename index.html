@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canon - Fotografia</title>
-   
+    <link rel="shortcut icon" href="media/fav-icon.png" type="image/png">
+    
     <link rel="stylesheet" href="src/css/custom-bootstrap.min.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
@@ -63,11 +64,54 @@
         <div class="container-fluid vh-100 header-bg"></div>
     </header>
 
+    <main class="w-100 bg-black py-5">
 
-    
+        <div class="container py-5">
+            <h2 class="text-light h3"><i class="fa-solid fa-camera h2"></i> Em Destaque</h2>
+            <hr class="hr bg-primary">
+        </div>
+        <div class="container-md carousel slide" id="highlights-carousel" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#highlights-carousel" data-bs-slide-to="0" aria-label="Slide 1" aria-current="true"></button>
+                <button type="button" data-bs-target="#highlights-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#highlights-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner text-light">
+                <div class="carousel-item active">
+                    <div class="col-sm-6 col-lg-8 mx-auto p-5 card bg-dark" id="highlights-card-1">
+                        <div class="card-body">
+                            <h5 class="card-title">Canon PowerShot SX420 IS</h5>
+                            <p class="card-text">Registre o mundo com uma câmera semiprofissional de 20 MP e 40x de zoom óptico!</p>
+                            <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-sm-6 col-lg-8 mx-auto p-5 card bg-dark" id="highlights-card-2">
+                        <div class="card-body" >
+                            <h5 class="card-title">Canon EOS T7</h5>
+                            <p class="card-text">Uma câmera mais profissional DSLR para aqueles que amam fotografar!</p>
+                            <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-sm-6 col-lg-8 mx-auto p-5 card bg-dark" id="highlights-card-3">
+                        <div class="card-body" >
+                            <h5 class="card-title">Canon EOS Rebel T100</h5>
+                            <p class="card-text">Simples mas robusta. Solidez para quem quer começar na fotografia!</p>
+                            <a href="#" class="btn btn-primary">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+    </main>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="src/bootstrap-js/bootstrap.js"></script>
+
+    <script src="https://kit.fontawesome.com/6886debc6f.js" crossorigin="anonymous"></script>
 </body>
 </html>
