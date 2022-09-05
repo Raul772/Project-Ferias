@@ -12,9 +12,6 @@
     --font-default: 'Roboto', sans-serif;
     --font-logo: 'Canon-logo', serif;
 }
-body{
-    height: 200vh;
-}
 body::-webkit-scrollbar{
     display: none;
 }
