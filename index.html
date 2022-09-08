@@ -10,10 +10,9 @@
     <link rel="stylesheet" href="src/css/custom-bootstrap.min.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
-
-    <script src="src/js/index.js" defer></script>
 </head>
 <body>
+
     <header class="w-100">
 
         <!-- NavBar -->
@@ -44,7 +43,7 @@
 
         <!-- Header -->
         <video class="header-clip" autoplay loop muted disablePictureInPicture>
-            <source src="media/background-video1.mp4" playbackRate=2 type="video/mp4">
+            <source src="media/background-video.mp4" type="video/mp4">
         </video>
         <div class="container vh-100 d-flex flex-column justify-content-center align-items-center text-light" id="header">
             <!-- text carousel -->
@@ -66,12 +65,12 @@
 
     <main class="w-100 bg-black py-5">
 
-        <section>
-            <div class="container py-5">
-                <h2 class="text-light h3"><i class="fa-solid fa-camera h2"></i> Em Destaque</h2>
-                <hr class="hr bg-primary">
+        <section class="container-fluid py-5 bg-primary">
+            <div class="container">
+                <h2 class="text-light h3 text-center font-highlight"><i class="fa-solid fa-star h2"></i> Em Destaque</h2>
+                <hr class="hr bg-light">
             </div>
-            <div class="container-md carousel slide" id="highlights-carousel" data-bs-ride="true">
+            <div class="container-md carousel slide py-5" id="highlights-carousel" data-bs-ride="true">
                 <div class="carousel-indicators">
                     <button type="button" class="active" data-bs-target="#highlights-carousel" data-bs-slide-to="0" aria-label="Slide 1" aria-current="true"></button>
                     <button type="button" data-bs-target="#highlights-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -107,13 +106,238 @@
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <hr class="hr bg-light">
+            </div>
         </section>
 
+        <section class="container-md py-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 py-2">
+                    <div class="card card-hover">
+                        <a href="https://www.loja.canon.com.br/pt/canonbr/eos-webcam-utility" target="_blank">
+                            <img src="media/home-box/home-box-ewu.jpg" class="img-fluid rounded" alt="EOS Webcam Utility">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4 py-2">
+                    <div class="card card-hover">
+                        <a href="https://www.loja.canon.com.br/pt/canonbr/live" target="_blank">
+                            <img src="media/home-box/home-box-live.jpg" class="img-fluid rounded" alt="Canon College live">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container-md py-5">
+            <div class="container">
+                <h2 class="text-light font-highlight h3"><i class="fa-solid fa-heart h2"></i> Ofertas para você!</h2>
+                <hr class="hr bg-primary">
+            </div>
+            <div class="row g-3 py-5">
+                <div class="col-sm-3">
+                    <div class="card card-hover">
+                        <a href="#" class="text-decoration-none text-dark">
+                            <div class="card-img-top">
+                                <img src="media/Offers/50mm-14-brasil.jpg" class="img-fluid rounded-top" alt="Lente 50mm">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title font-highlight fw-bold">Lente EF 50mm f/1.4 USM</h5>
+                                <p class="card-text">De: <span class="text-decoration-line-through">R$ 2.549,90</span> <br> <span class="text-primary">Por: R$ 2.065,50</span></p>
+                                <p class="card-text text-primary fw-bold">em até 10x R$ 206,55</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card card-hover">
+                        <a href="#" class="text-decoration-none text-dark">
+                            <div class="card-img-top">
+                                <img src="media/Offers/75-300mm-brasil.jpg" class="img-fluid rounded-top" alt="Lente 50mm">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title font-highlight fw-bold">Lente EF 75-300mm f/4-5.6 III</h5>
+                                <p class="card-text">De: <span class="text-decoration-line-through">R$ 1.449,90</span> <br> <span class="text-primary">Por: R$ 1.235,00</span></p>
+                                <p class="card-text text-primary fw-bold">em até 10x R$ 123,50</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card card-hover">
+                        <a href="#" class="text-decoration-none text-dark">
+                            <div class="card-img-top">
+                                <img src="media/Offers/70-200mm-brasil.jpg" class="img-fluid rounded-top" alt="Lente 50mm">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title  font-highlight fw-bold">Lente EF 70-200mm f/2.8L IS III USM</h5>
+                                <p class="card-text">De: <span class="text-decoration-line-through">R$ 14.299,90</span> <br> <span class="text-primary">Por: R$ 11.999,00</span></p>
+                                <p class="card-text text-primary fw-bold">em até 10x R$ 1.999,90</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card card-hover">
+                        <a href="#" class="text-decoration-none text-dark">
+                            <div class="card-img-top">
+                                <img src="media/Offers/16-35mm-brasil.jpg" class="img-fluid rounded-top" alt="Lente 50mm">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title font-highlight fw-bold">Lente EF 16-35mm f/2.8L III USM</h5>
+                                <p class="card-text">De: <span class="text-decoration-line-through">R$ 11.699,90</span> <br> <span class="text-primary">Por: R$ 10.530,00</span></p>
+                                <p class="card-text text-primary fw-bold">em até 10x R$ 1053,00</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-md py-5">
+            <div class="container">
+                <h2 class="text-light font-highlight h3"><i class="fa-solid fa-icons h2"></i> Produtos por segmento</h2>
+                <hr class="hr bg-primary">
+            </div>
+            <div class="row py-5">
+                <div class="col-sm-3 py-2">
+                    <div class="card card-hover cardback-trigger">
+                        <a href="https://www.loja.canon.com.br/pt/canonbr/eos-webcam-utility" target="_blank">
+                            <img src="media/Segmentos-banners/segmentos-casamento.jpg" class="img-fluid rounded" alt="EOS Webcam Utility">
+                            <div class="card-img-overlay bg-primary card-back">
+                                <div class="card-title text-center text-light position-relative top-50 translate-middle-y">
+                                    <h3 class="text-uppercase fw-light">Casamento e Eventos</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3 py-2">
+                    <div class="card card-hover cardback-trigger">
+                        <a href="https://www.loja.canon.com.br/pt/canonbr/eos-webcam-utility" target="_blank">
+                            <img src="media/Segmentos-banners/segmentos-video.jpg" class="img-fluid rounded" alt="Canon College live">
+                            <div class="card-img-overlay bg-primary card-back">
+                                <div class="card-title text-center text-light position-relative top-50 translate-middle-y">
+                                    <h3 class="text-uppercase fw-light">Combos de vídeo e Streaming</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3 py-2">
+                    <div class="card card-hover cardback-trigger">
+                        <a href="https://www.loja.canon.com.br/pt/canonbr/eos-webcam-utility" target="_blank">
+                            <img src="media/Segmentos-banners/segmentos-moda.jpg" class="img-fluid rounded" alt="EOS Webcam Utility">
+                            <div class="card-img-overlay bg-primary card-back">
+                                <div class="card-title text-center text-light position-relative top-50 translate-middle-y">
+                                    <h3 class="text-uppercase fw-light">Moda e Still</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3 py-2">
+                    <div class="card card-hover cardback-trigger">
+                        <a href="https://www.loja.canon.com.br/pt/canonbr/eos-webcam-utility" target="_blank">
+                            <img src="media/Segmentos-banners/segmentos-arq.jpg" class="img-fluid rounded" alt="Canon College live">
+                            <div class="card-img-overlay bg-primary card-back">
+                                <div class="card-title text-center text-light position-relative top-50 translate-middle-y">
+                                    <h3 class="text-uppercase fw-light">Arquitetura e Decoração</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <hr class="hr bg-primary">
+            </div>
+        </section>
+
+        <section class="container-md py-5">
+            <div class="row g-3 justify-content-center align-items-center">
+                <div class="col-4 col-sm-2">
+                    <a href="https://www.axis.com/pt-br" target="_blank"><img src="media/Subsidiaries/Axis-Comunications.jpg" class="img-fluid rounded card-hover" alt="Axis Xomunications Logo"></a>
+                </div>
+                <div class="col-4 col-sm-2">
+                    <a href="https://www.briefcam.com" target="_blank"><img src="media/Subsidiaries/BriefCam.jpg" class="img-fluid rounded card-hover" alt="Briefcam Logo"></a>
+                </div>
+                <div class="col-4 col-sm-2">
+                    <a href="https://www.milestonesys.com" target="_blank"><img src="media/Subsidiaries/Milestone-Systems.jpg" class="img-fluid rounded card-hover" alt="Milestone Systems Logo"></a>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <section class="container-fluid py-5 bg-primary">
+            <div class="container-md">
+                
+                <div class="row text-light g-3">
+                    <div class="col">
+                        <hr class="hr bg-dark">
+                        <h5 class="font-highlight">Siga a Canon!</h5>
+                        <a href="https://www.facebook.com/canonbr" class="h2 text-light text-decoration-none" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/canonbr/" class="h2 text-light text-decoration-none" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/user/canonbr" class="h2 text-light text-decoration-none" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://twitter.com/canonbr" class="h2 text-light text-decoration-none" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="col">
+                        <hr class="hr bg-dark">
+                        <h5 class="font-highlight">Suporte</h5>
+                        <a href="https://www.canon.com.br/suporte" class="text-light" target="_blank">Assistência Técnica</a>
+                        <h5 class="font-highlight mt-5">Lojas</h5>
+                        <a href="https://www.canon.com.br/onde-comprar" class="text-light d-block" target="_blank">Busca Lojas</a>
+                        <a href="https://www.loja.canon.com.br/" class="text-light" target="_blank">Loja Canon</a>
+                    </div>
+                    <div class="col">
+                        <hr class="hr bg-dark">
+                        <h5 class="font-highlight">A Canon</h5>
+                        <a href="https://www.canon.com.br/a-canon/noticias" class="text-light d-block" target="_blank">Notícias</a>
+                        <a href="https://www.canon.com.br/trabalheconosco_n.aspx" class="text-light d-block" target="_blank">Trabalhe Conosco</a>
+                        <a href="https://www.canon.com.br/a-canon/assessoria-de-imprensa" class="text-light d-block" target="_blank">Assessoria de Imprensa</a>
+                        <a href="https://www.canon.com.br/a-canon/sustentabilidade" class="text-light d-block" target="_blank">Sustentabilidade</a>
+                        <a href="https://www.canon.com.br/a-canon/canon-no-mundo" class="text-light d-block" target="_blank">Canon no Mundo</a>
+                        <a href="https://www.canon.com.br/a-canon/canon-no-brasil" class="text-light d-block" target="_blank">Canon no Brasil</a>
+
+                    </div>
+                    <div class="col">
+                        <hr class="hr bg-dark">
+                        <h5 class="font-highlight">Produtos</h5>
+                        <a href="https://www.canon.com.br/produtos/produtos-para-voce/cameras" class="text-light d-block" target="_blank">Câmeras</a>
+                        <a href="https://www.canon.com.br/produtos/produtos-para-voce/connect-station" class="text-light d-block" target="_blank">Connect Station</a>
+                        <a href="https://www.canon.com.br/produtos/produtos-para-voce/impressoras" class="text-light d-block" target="_blank">Impressoras</a>
+                        <a href="https://www.canon.com.br/produtos/produtos-para-voce/filmadoras-digitais" class="text-light d-block" target="_blank">Filmadoras Digitais</a>
+                        <a href="https://www.canon.com.br/produtos/produtos-para-voce/scanners" class="text-light d-block" target="_blank">Scanners</a>
+                        <a href="https://www.canon.com.br/produtos/produtos-para-voce/broadcast" class="text-light d-block" target="_blank">Broadcast</a>
+                    </div>
+                    <div class="col text-center text-sm-start">
+                        <hr class="hr bg-dark">
+                        <p>Este site não é oficial e não tem nenhum vínculo com a Canon&reg; nem suas subsidiárias. Assim, este site trata-se apenas de um protótipo sem fins comerciais reais. Mantém-se reservados os direitos à Canon&reg;.</p>
+                        <a href="https://www.canon.com.br" class="text-light d-block" target="_blank" rel="noopener noreferrer">Site Oficial Canon.</a>
+                        <a href="about.html" class="text-light" target="_blank" rel="noopener noreferrer">Sobre e Créditos.</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <h2 class="font-logo text-light text-center pt-3">Canon</h2>
+                </div>
+                <div class="row pt-3">
+                    <div class="col">
+                        <p class="text-center text-light"><a href="https://github.com/Raul772" class="text-light" target="_blank">Raul Victor</a> &copy; 2022</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="src/bootstrap-js/bootstrap.js"></script>
 
+    <!-- ICONS -->
     <script src="https://kit.fontawesome.com/6886debc6f.js" crossorigin="anonymous"></script>
+
+    <!-- Animations -->
+    <script src="src/js/index.js"></script>
 </body>
 </html>
