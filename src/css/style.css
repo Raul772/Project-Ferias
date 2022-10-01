@@ -86,21 +86,21 @@ body::-webkit-scrollbar{
 }
 
 /* HIGHLIGHTS CARD-CAROUSEL */
+
 #highlights-card-1{
     background: linear-gradient(#00000050, #00000050) ,url(../../media/highlights-cards/highlights-card1.jpg);
-    background-size: cover;
-    background-position: center;
 }
 #highlights-card-2{
     background: linear-gradient(#00000050, #00000050) ,url(../../media/highlights-cards/highlights-card2.jpg);
-    background-size: cover;
-    background-position: center;
 }
 #highlights-card-3{
     background: linear-gradient(#00000050, #00000050) ,url(../../media/highlights-cards/highlights-card3.jpg);
+}
+#highlights-card-1, #highlights-card-2, #highlights-card-3{
     background-size: cover;
     background-position: center;
 }
+
 
 /* CARD'S ANIMATION ON HOVER CLASS */
 .card-hover{
