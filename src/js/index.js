@@ -12,5 +12,5 @@ setInterval(() => {
 
     header_textcarousel_slides.style.transform = `translateY(-${id*slide_total_height}px)`;
     id++;
-    console.log("Slide: "+ id*slide_total_height);
+    console.log("Slide: " + id*slide_total_height);
 } , 5000);

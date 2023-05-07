@@ -2,17 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&family=Rubik:wght@300;500&display=swap');
 
-@font-face {
-    font-family: 'Canon-logo';
-    font-weight: 600;
-    src: url(../fonts/CANON.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
+
 
 /* ROOT VARIABLES */
 :root{
     --font-default: 'Roboto', sans-serif;
     --font-highlight: 'Rubik';
-    --font-logo: 'Canon-logo', serif;
+    --font-logo: 'Philosopher', serif;
+
 }
 
 /* STYLING SCROLLBAR */
